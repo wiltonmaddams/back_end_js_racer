@@ -1,0 +1,15 @@
+<div class='container'>
+  <h2>Welcome to JavaScript Racer!</h2>
+  <%= erb :_player_entry_form_one %>
+</div>
+
+  <div id= "winner_1" class="display-none">
+    <h2>Player 1 wins!</h2>
+  </div>
+  <div id="winner_2" class="display-none">
+    <h2>Player 2 wins!</h2>
+  </div>
+
+  <div id='play-again' class="display-none"><button id='play'>Play again?</button></div>
+  <div id='view-stats' class="display-none"><button id='view'>View game stats</button><p id="results"></p></div>
+  <div id='change-players' class="display-none"><a href="/player/sign_out"><button>Change Players</button></a></div>
